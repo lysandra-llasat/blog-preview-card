@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;800&display=swap');
 
 * {
     margin: 0;
@@ -20,6 +21,7 @@
   margin: 0;
   display: grid;
   place-items: center;
+  font-family: var(--font-primary);
       
   }
   
@@ -64,6 +66,7 @@ h1, h2, h3 {
   aspect-ratio: 15 / 10;
   margin: auto;
   border-radius: 1rem;   
+  margin-top: 1rem;
 
 }
 
@@ -71,15 +74,63 @@ h1, h2, h3 {
 
   }
 
-.post-tag{
+.card-body div {
+  margin: 1rem;
+}
 
+.card-body > .date {
+  margin: 0 0 0 1rem;
+}
+
+.post-tag{
+background-color: var(--yellow);
+border-radius: 4px;
+width: 80px;
+font-weight: bold;
   }
 
+.date{
+  display: flex;
+  margin: 0.5rem;
+}
+
+.date p {
+  margin-right: 2px;
+
+}
+
+.title h1{
+  font-size: x-large;
+}
 .post-text{
 
   }
 
 .post-author{
+  display: flex;
 
   }
+
+  .post-author div{
+    margin: 0;
+  }
+
+.image-authors{
+  background-image: url(../assets/images/image-avatar.webp);
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat;
+  border-radius: 50%;  
+  width: 40px;   
+  height: 40px;
+  }
+
+.name-author{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-left: 1rem;
+  font-weight: bold;
+
+}
   
