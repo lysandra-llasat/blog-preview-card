@@ -133,4 +133,18 @@ font-weight: bold;
   font-weight: bold;
 
 }
+
+@media (min-width: 1024px) {
+  .card {
+    width: 400px;
+    font-size: 1.2rem;
+  }
+
+  .blog-container {
+    width: 90vw;  
+    aspect-ratio: 7/4;
+  }
+}
+
+
   
